@@ -1,0 +1,322 @@
+@media (max-width: 768px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        padding: 2px;
+        margin: 2px;
+    }
+
+    header {
+        position: relative;
+        background-color: black;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        top: -2px;
+        width: 100%;
+    }
+
+    .header-first-div {
+        display: flex;
+        background-color: black;
+    }
+
+    .header-first-div  div {
+        display: flex;
+        align-items: center;
+        width: 6rem;
+    }
+
+    .header-first-div  div img {
+        background-color: black;
+        margin-left: 3px;
+    }
+
+    .icons {
+        width: 1.5rem;
+    }
+
+    .bar {
+        color: red;
+        width: 1.8rem;
+    }
+
+    .arrow-down {
+        font-weight: bolder;
+        width: 1.5rem;
+        margin-top: -1px;
+    }
+
+    .user {
+        width: 1.8rem;
+    }
+
+    .header-second-div {
+        text-transform: uppercase;
+        padding: 3px;
+        text-align: center;
+        width: 9rem;
+    }
+
+    .header-second-div div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .header-second-div div div {
+        font-size: 0.8rem;
+        padding: 2px;
+        margin-top: 2px;
+        width: 5.5rem;
+    }
+
+    .header-second-div div div p {
+        font-weight: bold;
+    }
+
+    /* first section */
+    .first-section {
+        background-image:url("../image/big img.jpg") ;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 420px;
+        width: 100%;
+        margin-top: -100px;
+    }
+
+    .first-section div {
+        padding-top: 120px;
+    }
+
+    .first-section div div {
+        display: flex;
+        align-items: center ;
+        background-color: white;
+        border-radius: 0.4rem;
+        padding-top: 0;
+        padding: 8px;
+        justify-content: center;
+        width: 80%;
+        margin: 6rem auto;
+    }
+
+    .first-section div div input {
+        width:90%;
+        padding: 8px;
+        outline: none;
+        border: none;
+    }
+
+    .first-section div div input::placeholder {
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    .menu-section {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        place-items: center;
+        gap: 15px;
+        margin-top: -2.8rem;
+        text-transform: capitalize;
+    }
+    .menu-section div {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 130px;
+        height: 80px;
+        background-color: white;
+        padding: 2px;
+        border-radius: 0.6rem;
+        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .menu-section div img {
+        width: 35%;
+    }
+
+    .menu-section div h2 {
+        font-size: 1rem;
+        margin-top: 5px;
+    }
+
+    .third-section {
+        margin: 2rem auto;
+        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.1);
+        width: 92%;
+        padding: 4px;
+    }
+
+    .third-section div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-transform: capitalize;
+        margin-bottom: 1rem;
+    }
+
+    .third-section div img {
+        width: 12%;
+    }
+
+    .third-section div span {
+        margin-left: 10px;
+        font-size: 0.9rem;
+    }
+
+    .third-section div span p {
+        font-size: 0.8rem;
+        font-weight:600;
+    }
+
+    /* swiper css */
+  
+    .swiper {
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+  
+      .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 300px;
+        height: 200px;
+      }
+  
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 200px;
+      }
+
+    /* end of first swiper section  */
+
+    .card-grid {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .popular-section h1 {
+        text-transform: capitalize;
+        font-size: 1.8rem;
+        font-weight: lighter;
+        margin-bottom: 1rem;
+    }
+
+    .popular-section .card-div {
+        background-color: rgb(161, 160, 160);
+        width: 180px;
+        padding: 5px;
+        border-radius: 0.3rem;
+    }
+
+    .popular-section .card-div div {
+        margin-top: 3px;
+    }
+
+    .popular-section div .card-image {
+        width: 100%;
+        height: 150px;
+    }
+
+    .popular-section div .logo-image  {
+        width: 10%;
+        border-radius: 100%;
+    }
+
+    .best-deals-div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-transform: capitalize;
+    }
+
+    .card-location {
+        display: flex;
+        align-items: center;
+        margin-bottom: 0.5rem;
+    }
+
+    .card-location-name {
+        font-size: 1.3rem;
+    }
+
+
+    .card-price-div {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .card-price-div div {
+        width: fit-content;
+        font-size: 0.8rem;
+        text-transform: capitalize;
+    }
+
+    .card-price-div a {
+        margin-top: 1.1rem;
+        text-transform: capitalize;
+        padding: 1px;
+        border: none;
+        color: white;
+        background-color: red;
+        font-size: 0.8rem;
+    }
+    /* hotel trending destination starts hert */
+    .hotel-grid {
+        margin-top: 0.6rem;
+        display: flex;
+        align-items: center;
+        overflow-x: scroll;
+    }
+
+    .hotel-pic-div:first-of-type {
+        margin-left: 0;
+    }
+    .hotel-pic-div {
+        margin-left: 0.5rem;
+    }
+
+
+    .trending-des h1:first-of-type {
+        text-transform: capitalize;
+        font-size: 1.8rem;
+        font-weight: lighter;
+        margin-top: 1rem;
+    }
+
+    .trending-des h1:last-of-type {
+        text-transform: capitalize;
+        font-size: 1.8rem;
+        font-weight: lighter;
+    }
+
+    .trending-des .hotel-pic-div {
+        position: relative;
+    }
+
+    .trending-des .hotel-pic-div img {
+        width: 180px;
+        height: 200px;
+        border-radius: 0.5rem;
+    }
+
+    .text-on-img {
+        position: absolute;
+        top: 75%;
+        margin-left: 10px;
+        color: white;
+        text-transform: capitalize;
+    }
+
+}
