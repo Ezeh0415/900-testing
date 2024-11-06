@@ -20,8 +20,6 @@
         position: relative;
         display: flex;
         align-items: center;
-        margin-left: 0.2rem;
-        margin-top: 1px;
         justify-content: space-between;
         padding:8px 20px;
         background-color: black;
@@ -148,7 +146,7 @@
         align-items: center;
         align-self: stretch;
         justify-content: center;
-        width: 145px;
+        width: 160px;
         height: 90px;
         background-color: white;
         padding: 2px;
@@ -182,7 +180,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 5px;
+        gap: 15px;
         flex-shrink: 0;
         margin: 2rem auto;
     }
@@ -199,11 +197,11 @@
         width: 12%;
     }
 
-    .third-section div span h1 {
+    .third-section div span h2 {
         color: #000;
-        font-size: 13px;
+        font-size: 17px;
         font-style: normal;
-        font-weight: 400;
+        font-weight: 500;
         line-height: normal;
         letter-spacing: 0.021px;
     }
