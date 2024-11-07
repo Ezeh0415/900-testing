@@ -500,13 +500,17 @@
         letter-spacing: 0.048px;
     }
 
+    .quick-access-2 {
+        width:90%;
+    }
+
     .quick-access-2 main {
         align-self: stretch;
         display: flex;
         flex-direction: column;
         gap: 5px;
         margin-top: 0.3rem;
-        
+        width: 100%;
     }
     .quick-access-2 main p{
         color: #000;
@@ -515,6 +519,95 @@
         font-weight: 400;
         line-height: normal;
         letter-spacing: 0.048px;
+    }
+
+    /* footer section starts here  */
+    footer {
+        padding: 20px 20px;
+        width: 90.5%;
+        background-color: #131313;
+        color: #FFF2F2;
+    }
+
+    footer img {
+        width: 80px;
+        height: 56px;
+        flex-shrink: 0;
+        margin-bottom: 0.5rem;
+    }
+
+    footer h2:first-of-type {
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.048px;
+        margin-bottom: 0.5rem;
+    }
+
+    footer main:first-of-type {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        text-transform: capitalize;
+    }
+
+    footer main:first-of-type div  {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    footer main:first-of-type div h3 {
+        color: var(--white, #FFF);
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 0.048px;
+    }
+
+    footer main:first-of-type div p {
+        color: #DB0101;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0.048px;
+    }
+
+    footer h2:last-of-type {
+        margin-top: 1.2rem;
+        color: var(--white, #FFF);
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 0.048px;
+    }
+
+    footer main:last-of-type {
+        margin-top: 0.5rem;
+        display: flex; 
+        gap: 20px;
+    }
+
+    footer main:last-of-type img {
+        width: 36px;
+        height: 36px;
+    }
+
+    footer h1 {
+        margin-top: 1.2rem;
+        color: #FFF;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        letter-spacing: 0.048px;
+        padding: 20px 20px;
+        border-top: 2px solid white;
     }
 
 }
