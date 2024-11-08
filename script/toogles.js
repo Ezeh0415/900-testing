@@ -1,13 +1,11 @@
-const showSideBar = document.querySelectorAll("#show-side-bar")
+const showSideBar = document.getElementById("show-side-bar")
+const hideSideBar = document.getElementById("hide-side-bar")
 const sideBar  = document.getElementById("side-bar")
 
+showSideBar.addEventListener("click", () => {
+    sideBar.style.display = "flex"
+});
 
-const handleShowSideBar = () => {
-   sideBar.style.display = "flex";
-}
-
-const handleHideSideBar = () => {
-    sideBar.style.display = "none";
-}
-
-showSideBar.addEventListener("click", handleShowSideBar)
+hideSideBar.addEventListener("click", () => {
+    sideBar.style.display = "none"
+});
