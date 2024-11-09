@@ -27,14 +27,6 @@
         display: none;
     }
 
-    .show-side-bar {
-        display: flex;
-    }
-
-    .hide-side-bar {
-        display: none;
-    }
-
 
     .main-side-bar {
         width: 80%;
@@ -51,7 +43,7 @@
     .side-bar-first-section {
         display: flex;
         align-items: center;
-        gap: 10px;
+        gap: 13px;
         text-transform: capitalize;
         font-size: 18px;
         padding-bottom: 1rem;
@@ -80,7 +72,7 @@
     .side-bar-second-section span {
         display: flex;
         align-items: center;
-        gap: 10px;
+        gap: 13px;
     }
 
     .side-bar-third-section {
@@ -97,7 +89,7 @@
     .side-bar-third-section span {
         display: flex;
         align-items: center;
-        gap: 10px;
+        gap: 13px;
 
     }
 
@@ -115,7 +107,7 @@
     .side-bar-fourth-section span {
         display: flex;
         align-items: center;
-        gap: 10px;
+        gap: 13px;
     }
 
     /* end side bar section  */
@@ -434,7 +426,12 @@
         align-items: center;
         gap: 15px;
         overflow-x: scroll;
+        scrollbar-width: none;
     }
+
+    .hotel-grid::-webkit-scrollbar {
+        display: none; /* For Chrome, Safari, and Edge */
+      }
 
 
     .trending-des h1:first-of-type {
@@ -491,7 +488,12 @@
         align-items: center;
         gap: 10px;
         overflow-x: scroll;
+        scrollbar-width: none; /* For Firefox */
     }
+
+    .stories-flex::-webkit-scrollbar {
+        display: none; /* For Chrome, Safari, and Edge */
+      }
 
     .stories-card-div {
         width: 194px;
@@ -615,6 +617,8 @@
         gap: 5px;
         margin-top: 0.3rem;
         width: 100%;
+        overflow: hidden;
+        height: 0px;
     }
     .quick-access-2 main p{
         color: #000;
