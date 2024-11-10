@@ -12,8 +12,7 @@
     }
 
     a {
-        border: none;
-        border-bottom: none;
+        text-decoration: none;
     }
 
     /* side bar section */
@@ -47,6 +46,10 @@
         text-transform: capitalize;
         font-size: 18px;
         padding-bottom: 1rem;
+    }
+
+    .side-bar-first-section p a {
+        color: #000;
     }
 
     .side-bar-first-section img {
@@ -162,13 +165,14 @@
         text-align: center;
         width: 9rem;
     }
-
-    .header-second-div div {
+    
+    .header-second-div  div {
         display: flex;
         align-items: center;
         justify-content: space-between;
+        color: #fff;
     }
-
+    
     .header-second-div div div {
         font-size: 0.8rem;
         padding: 2px;
@@ -750,4 +754,118 @@
         border-top: 2px solid white;
     }
 
+    /* REGION AND CURRENCY SECTION STARTS HERE  */
+
+    .region-language-currency main {
+        margin: 1rem ;
+        font-family: Roboto;
+    }
+
+    .cancle-icon a {
+        color:#000;
+    }
+
+    .cancle-icon a div {
+        margin-left: 90%;
+        margin-top: 1rem;
+    }
+
+    .sectond-section {
+        margin-top: 1rem;
+    }
+
+    .second-section h1 {
+        color: #000;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .second-section div {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        margin-top: 1rem;
+    }
+    
+    .second-section div h3 a {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.024px;
+        color: #000;
+    }
+
+    .second-section h2 {
+        margin-top: 1.5rem;
+        color: #000;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0.024px;
+    }
+
+    .country-names {
+        margin-top: 1.5rem;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 15px;
+    }
+
+    .country-names div {
+        width: 80%;
+        height: 40px;
+        flex-shrink: 0;
+        color: #000;
+        border-radius: 4px;
+        padding: 14px;
+        text-transform: capitalize;
+        transition: all 1s;
+    }
+    
+    .country-names div:hover {
+        background:  #B61C1C;
+        color: #fff;
+        
+    }
+
+    .country-names div h1 {
+        font-family: Roboto;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        letter-spacing: 0.024px;
+    }
+
+    .country-names div h3 {
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        letter-spacing: 0.018px;
+        margin-top: 0.3rem;
+    }
+
+    .region-and-language{
+        margin-top: 0.8rem;
+        text-align: center;
+        background: #FFF2F2;
+        border-top: solid 2px rgba(90, 88, 88,0.4);
+    }
+
+    .region-and-language h1 {
+        color: #000;
+        font-family: Roboto;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        letter-spacing: 0.018px;
+    }
 }
